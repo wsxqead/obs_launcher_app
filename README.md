@@ -52,13 +52,22 @@ UI/브랜드 커스터마이징
 📦 설치 & 실행
 
 1. 개발 환경에서 실행
-```   git clone https://your-repo-url/obs-launcher-app.git
+
+```bash
+
+   git clone https://your-repo-url/obs-launcher-app.git
+
    cd obs-launcher-app
+
    npm install
+
    npm start
+```
 
 2. 빌드 (아이콘 더블클릭 실행 파일 만들기)
+```bash
    npm run build
+```
 
 Windows: dist/OBS Launcher Setup.exe
 

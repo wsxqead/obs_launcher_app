@@ -1,9 +1,33 @@
-📺 OBS Launcher App
+# 📺 OBS Launcher App
 
-OBS Launcher App은 방송자가 OBS를 직접 제어하지 않고도
-플랫폼 전용 런처에서 로그인 → 방송 시작/종료를 손쉽게 할 수 있도록 만들어진 Electron 기반 앱입니다.
+OBS Launcher App은 방송자가 **OBS를 직접 제어하지 않고도**  
+플랫폼 전용 런처에서 **로그인 → 방송 시작/종료**를 손쉽게 할 수 있도록 만든 Electron 기반 앱입니다.  
 
-OBS는 백엔진으로만 동작하며, 런처에서 모든 제어를 대신합니다.
+OBS는 **백엔진**으로만 동작하며, 런처에서 모든 제어를 대신합니다.  
+
+---
+
+## 🚀 기능
+
+- 아이콘 클릭으로 런처 실행  
+- 방송 시작/종료 버튼 → OBS 자동 실행 및 제어  
+- RTMP 서버 주소 & Stream Key 입력 → OBS 설정 자동 주입  
+- **추후 기능 확장 예정**:
+  - 플랫폼 로그인 + 스트림키 자동 발급
+  - 후원 이벤트 발생 시 OBS에 효과 자동 삽입
+  - UI/브랜드 커스터마이징
+
+---
+
+## 📦 설치 & 실행
+
+### 개발 환경에서 실행
+```bash
+git clone https://your-repo-url/obs-launcher-app.git
+cd obs-launcher-app
+npm install
+npm start
+
 
 🚀 기능
 

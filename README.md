@@ -94,6 +94,7 @@ OBS 28 이상: 기본 포함 (Tools > WebSocket Server Settings)
 OBS Connected! 로그가 나오면 정상 연결됨
 
 ## 🗂 프로젝트 구조
+```bash
 obs-launcher-app/
 ├── main.js # Electron 메인 프로세스
 ├── preload.js # Renderer <-> Node.js 브릿지
@@ -102,6 +103,7 @@ obs-launcher-app/
 │ └── index.js # UI 로직
 └── services/
 └── obsControl.js # OBS WebSocket 제어 모듈
+```
 
 ## 📝 사용 방법
 

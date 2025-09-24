@@ -27,7 +27,7 @@ git clone https://your-repo-url/obs-launcher-app.git
 cd obs-launcher-app
 npm install
 npm start
-
+```
 
 ## 🚀 기능
 

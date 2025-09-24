@@ -29,7 +29,7 @@ npm install
 npm start
 
 
-🚀 기능
+## 🚀 기능
 
 아이콘 클릭으로 런처 실행
 
@@ -48,7 +48,7 @@ UI/브랜드 커스터마이징
 📦 설치 & 실행
 
 1. 개발 환경에서 실행
-   git clone https://your-repo-url/obs-launcher-app.git
+```   git clone https://your-repo-url/obs-launcher-app.git
    cd obs-launcher-app
    npm install
    npm start
@@ -62,7 +62,7 @@ Mac: dist/OBS Launcher.dmg
 
 빌드된 실행 파일을 설치하면 바탕화면/시작 메뉴에 아이콘이 생기며, 아이콘 더블클릭으로 앱 실행이 가능합니다.
 
-⚙️ OBS 설정
+## ⚙️ OBS 설정
 
 OBS 설치
 
@@ -80,7 +80,7 @@ OBS 28 이상: 기본 포함 (Tools > WebSocket Server Settings)
 
 OBS Connected! 로그가 나오면 정상 연결됨
 
-🗂 프로젝트 구조
+## 🗂 프로젝트 구조
 obs-launcher-app/
 ├── main.js # Electron 메인 프로세스
 ├── preload.js # Renderer <-> Node.js 브릿지
@@ -90,7 +90,7 @@ obs-launcher-app/
 └── services/
 └── obsControl.js # OBS WebSocket 제어 모듈
 
-📝 사용 방법
+## 📝 사용 방법
 
 앱 실행 (아이콘 더블클릭)
 
@@ -100,7 +100,7 @@ RTMP 서버 주소 & Stream Key 입력
 
 “방송 종료” 버튼 → OBS 송출 종료
 
-🛠 개발 예정 기능
+## 🛠 개발 예정 기능
 
 플랫폼 계정 로그인 및 자동 스트림키 발급
 
@@ -110,7 +110,7 @@ RTMP 서버 주소 & Stream Key 입력
 
 플랫폼 브랜드 전용 아이콘/스플래시 화면
 
-📄 라이선스
+## 📄 라이선스
 
 이 프로젝트는 GPL v2
 라이선스를 따르는 OBS 소스 코드와 연동됩니다.

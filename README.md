@@ -23,9 +23,13 @@ OBS는 **백엔진**으로만 동작하며, 런처에서 모든 제어를 대신
 
 ### 개발 환경에서 실행
 ```bash
+
 git clone https://your-repo-url/obs-launcher-app.git
+
 cd obs-launcher-app
+
 npm install
+
 npm start
 ```
 

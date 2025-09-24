@@ -49,7 +49,7 @@ RTMP 서버 주소 & Stream Key 입력 → OBS 설정 자동 주입
 
 UI/브랜드 커스터마이징
 
-📦 설치 & 실행
+## 📦 설치 & 실행
 
 1. 개발 환경에서 실행
 
@@ -78,20 +78,21 @@ Mac: dist/OBS Launcher.dmg
 ## ⚙️ OBS 설정
 
 OBS 설치
-
-OBS 공식 다운로드
+👉 OBS 공식 다운로드
 
 OBS WebSocket 활성화
 
-OBS 28 이상: 기본 포함 (Tools > WebSocket Server Settings)
+OBS 28 이상: 기본 포함
 
-포트: 4455
+메뉴: Tools > WebSocket Server Settings
 
-비밀번호: 설정 후 launcher 코드와 일치시켜야 함
+기본 포트: 4455
+
+비밀번호: 런처 코드와 일치시켜야 함
 
 런처 실행 후 연결 확인
 
-OBS Connected! 로그가 나오면 정상 연결됨
+콘솔 로그에 OBS Connected! 메시지가 나오면 정상 연결됨
 
 ## 🗂 프로젝트 구조
 ```bash
